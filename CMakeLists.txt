@@ -35,8 +35,8 @@ if(CMAKE_BUILD_TYPE MATCHES RelWithDebInfo)
 
 endif(CMAKE_BUILD_TYPE MATCHES RelWithDebInfo)
 
-set(CMAKE_C_FLAGS "-march=x86-64")
-set(CMAKE_CXX_FLAGS "-march=x86-64")
+set(CMAKE_C_FLAGS "-march=armv7") # For compiling on Raspberri Pi 4 
+set(CMAKE_CXX_FLAGS "-march=armv7") # For compiling on Raspberri Pi 4 
 
 project(graft_server)
 
